@@ -1,0 +1,18 @@
+body,
+html {
+  padding: 0;
+  margin: 0;
+}
+
+.main {
+  &_get {
+    background: #8dccb0;
+    min-height: 200px;
+  }
+
+  &_post {
+    margin-top: 50px;
+    background: #ccc3a2;
+    min-height: 200px;
+  }
+}

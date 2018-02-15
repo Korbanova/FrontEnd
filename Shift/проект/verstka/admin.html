@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Test</title>
+    <link rel="stylesheet" href="./style/main.css">
+</head>
+<body>
+
+
+<div class="main">
+    <div class="main_get">
+        <div class="main_get_list main_get_list__people"></div>
+        <button class="get_info_people">Показать участников</button>
+    </div>
+
+    <div class="main">
+        <div class="main_get">
+            <div class="main_get_list main_get_list__orders"></div>
+            <button class="main_get_send">Получить список заказов</button>
+        </div>
+
+        <div class="main_post">
+            <form class="main_post_form">
+                Сумма займа:
+                <br/>
+                <input type="text" name="value" class="main_post_form_value">
+                <br/>
+                Дата:
+                <br/>
+                <input type="text" name="days" class="main_post_form_days">
+                <br/>
+                <button type="submit" class="main_post_form_send">Создать заявку</button>
+            </form>
+        </div>
+
+        <div class="main_post">
+            <form class="accept_form">
+                Номер заказа:
+                <br/>
+                <input type="text" name="value" class="accept_form_space">
+                <br/>
+
+                <button type="submit" class="main_post_form_send">Принять заявку</button>
+            </form>
+        </div>
+
+    </div>
+
+</body>
+
+<script src="./lib/request.js"></script>
+<script src="./js/main.js"></script>
+</html>

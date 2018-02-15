@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Test</title>
+    <link rel="stylesheet" href="./debtorIndex.css">
+</head>
+
+<body>
+
+    <div class="header" style="border-bottom: 1px solid #dddee1" >
+        <div style="margin-left: 20px;">
+            <img class="logo" src="./logo.png" style="background-color: none">
+        </div>
+        <div style="margin-left: 20px;">
+             <img src="./logo1.png" style="background-color: none; width: 200px; height: 20px;">
+        </div>
+    </div>
+
+    <div class="tab">
+        <button class="tablink" onclick="openTab(event, 'mainPage')" id="defaultOpen">Главная страница</button>
+        <button class="tablink" onclick="openTab(event, 'createOrder')"> Оформить заявку</button>
+        <button class="tablink" onclick="openTab(event, 'loanHistory')">История заемов</button>
+    </div>
+
+    <div id="mainPage" class="tabcontent">
+        <div id="mainInfo" class="indexPage">
+              <form class="pageName">
+                 <h2>Иванов Иван Иванович</h2>
+                 <p> </p>
+              </form> 
+              <div class="pageBalance">
+                  <h2>БАЛАНС</h2>
+                  
+              </div>
+              <div class="pageRate">
+                  <h2>рейтинг</h2>
+              </div>
+              <div class="rate">
+                  
+              </div>
+        </div>
+        <div id="loans" class="indexPage">
+          
+        </div>
+    </div>
+
+    <form id="createOrder" class="tabcontent">
+        <table>
+              <tr>
+                <td style="font-weight: bold; font-size: 50px">Оформить заявку</td>
+              </tr>
+              <tr style="">
+                <td>Сумма займа</td>
+                <td><input type="text" name="value" class="sumOrder"></td>
+              </tr>
+              <tr>
+                <td>Срок займа</td>
+                <td><input type="text" name="days" class="dateOrder"></td>
+              </tr>
+              <tr>
+                <td>% в день</td>
+                <td><div class="percent"></div></td>
+              </tr>
+              <tr>
+                <td>Вернуть до</td>
+                <td><div class="returnDay"></div></td>
+              </tr>
+              <tr>
+                <td>Сумма с процентами</td>
+                <td><div class="finalSum"></div></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td><button class="sendRequest" style="font-size: 27px; color: #79797a">Отправить</button></td>
+              </tr>
+        </table>
+        
+    </form>
+
+    <div id="loanHistory" class="tabcontent">
+        
+    </div>
+
+
+    <div class="footer">
+        <a href="" class="aboutUs">О нас</a>
+        <a href="" class="contacts">Контакты</a>
+        <a href="" class="feedback">Обратная связь</a>
+        <a href="" class="telegramLogo"><img src="./telegram-logo.png"></a>
+        <a href="" class="skypeLogo"><img src="./skype-logo.png"></a>
+        <a href="" class="instagramLogo"><img src="./Instagram-logo.png"></a>
+    </div>
+
+</body>
+<script src="./debtorIndex.js"></script>
+<script src="./request.js"></script>
+
+</html>

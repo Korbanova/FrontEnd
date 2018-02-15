@@ -1,0 +1,104 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>hover</title>
+    <style>
+ .hover-fold {
+  background: #e8c63d;
+  border: 5px white solid;
+  height: 310px;
+  margin: 10px auto;
+  -moz-perspective: 1500;
+  -webkit-perspective: 1500;
+  perspective: 1500;
+  position: relative;
+  width: 410px;
+}
+.hover-fold h2 {
+  border-bottom: 1px solid #333;
+  margin: 0 40px;
+  padding: 110px 0 2px;
+}
+.hover-fold .top {
+  height: 50%;
+  -moz-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+  -moz-transform: rotateX(0deg);
+  -ms-transform: rotateX(0deg);
+  -webkit-transform: rotateX(0deg);
+  transform: rotateX(0deg);
+  -moz-transform-origin: 0 100%;
+  -ms-transform-origin: 0 100%;
+  -webkit-transform-origin: 0 100%;
+  transform-origin: 0 100%;
+  -moz-transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  z-index: 10;
+}
+.hover-fold .top .back {
+  -moz-backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  position: absolute;
+}
+.hover-fold:hover .top {
+  -moz-transform: rotateX(-180deg);
+  -ms-transform: rotateX(-180deg);
+  -webkit-transform: rotateX(-180deg);
+  transform: rotateX(-180deg);
+}
+.hover-fold .back {
+  background: url(arrow.png);
+  height: 100%;
+  /*has to be 100% of .top */
+  width: 100%;
+}
+.hover-fold .back {
+  background: #e8c63d;
+  height: 100%;
+  /*has to be 100% of .top */
+  padding: 0 40px;
+  -moz-transform: rotateX(180deg);
+  -ms-transform: rotateX(180deg);
+  -webkit-transform: rotateX(180deg);
+  transform: rotateX(180deg);
+  width: 100%;
+}
+.hover-fold .back p {
+  margin: 0;
+}
+.hover-fold .bottom {
+  background: url(arrow.png) bottom;
+  height: 50%;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  z-index: 0;
+}
+
+
+  </style>
+</head>
+<body>
+<div class="hover-fold">
+    <h2>2 or More Shirt</h2>
+    <div class="top">
+
+        <div class="back face">
+            <p>I designed this shirt for my friend's band "2 or More". I was really excited to play with the transparencies in the ink. I thought it would be fun, but the screen printer didn't.</p>
+        </div>
+    </div>
+
+    <div class="bottom"></div>
+
+</div>
+</body>
+</html>

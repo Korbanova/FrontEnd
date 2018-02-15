@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Test</title>
+    <link rel="stylesheet" href="./AdminPage.css">
+</head>
+
+<body>
+
+    <div class="header" style="border-bottom: 1px solid #dddee1" >
+        <div style="margin-left: 20px;">
+            <img class="logo" src="./logo.png" style="background-color: none">
+        </div>
+        <div style="margin-left: 20px;">
+             <img src="./logo1.png" style="background-color: none; width: 200px; height: 20px;">
+        </div>
+    </div>
+
+    <div class="tab">
+        <button class="tablink" onclick="openTab(event, 'mainPage')" id="defaultOpen">Главная страница</button>
+        <button class="tablink" onclick="openTab(event, 'createOrder')"> Список инвестиций</button>
+        <button class="tablink" onclick="openTab(event, 'loanHistory')">Список операций</button>
+    </div>
+
+    <div id="mainPage" class="tabcontent">
+        <div id="mainInfo" class="indexPage">
+
+            <form class="pageName">
+                <h1>Cписок пользователей</h1>
+                <p> </p>
+            </form>
+            <div class="main">
+                <div class="main_get">
+                    <div class="main_get_list"></div>
+                    <button class="main_get_send" style="font-size: 27px; color:#79797a">Получить список пользователей</button>
+                </div>
+        </div>
+
+
+      </div>
+    </div>
+    <div id="createOrder" class="tabcontent">
+        <div id="mainInfo1" class="indexPage1">
+
+            <form class="pageName">
+                <h1>Cписок инвестиций</h1>
+                <p> </p>
+            </form>
+            <div class="main1">
+                <div class="main_get1">
+                    <div class="main_get_list1"></div>
+                    <button class="main_get_send1" style="font-size: 27px; color:#79797a " >Получить список инвестиций</button>
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+
+    <div id="loanHistory" class="tabcontent">
+        <div id="mainInfo2" class="indexPage2">
+
+            <form class="pageName">
+                <h1>Cписок операций</h1>
+                <p> </p>
+            </form>
+            <div class="main2">
+                <div class="main_get2">
+                    <div class="main_get_list2"></div>
+                    <button class="main_get_send2" style="font-size: 27px; color:#79797a">Получить список операций</button>
+                </div>
+            </div>
+    </div>
+    </div>
+
+    <div class="footer">
+        <a href="" class="aboutUs">О нас</a>
+        <a href="" class="contacts">Контакты</a>
+        <a href="" class="feedback">Обратная связь</a>
+        <a href="" class="telegramLogo"><img src="./telegram-logo.png"></a>
+        <a href="" class="skypeLogo"><img src="./skype-logo.png"></a>
+        <a href="" class="instagramLogo"><img src="./Instagram-logo.png"></a>
+    </div>
+
+</body>
+<script src="./AdminPage.js"></script>
+<script src="./request.js"></script>
+
+</html>

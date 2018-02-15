@@ -1,0 +1,181 @@
+/* Используемые цвета:
+
+#777777 - рамка
+#ffffff - header
+#fffebc - желтый
+#b2fdd0 - зеленый
+#ffbaba - розовый
+
+*/
+
+.formula {
+    width:100%;
+    height:10%;
+    border-collapse: collapse;
+    min-width: 600px;
+    max-width: 1600px;
+    margin:auto;
+    display: table;
+}
+
+.formula p {
+    margin: 0;
+    padding: 10px;
+    font-size: 20px;
+    display: table-caption;
+
+    text-align: center;
+}
+.formula ul {
+    display: table-row;
+}
+.formula li {
+    display: table-cell;
+}
+
+.formula header {
+    display: table-header-group;
+    text-align: center;
+    background-color: #ffffff;
+}
+.formula .column {
+    display: table-column;
+}
+.formula .content {
+    display: table-row-group;
+}
+.content li, .formula header li {
+    border: 1px solid #777777;
+    text-align: center;
+    vertical-align: middle;
+    padding: 5px;
+}
+.formula .column-group {
+    display: table-column-group;
+    background-color: #b2fdd0;
+}
+.formula .column-last {
+    background-color: #ffbaba;
+}
+.content-important li {
+    background-color: #fffebc;
+
+}
+.formula li:hover{
+/*background:#008000;*/
+box-shadow: inset 0 0 0 3px #008000;
+}
+#main{
+   width:100%;
+   height:10%;
+   /*background:#009900;*/
+   min-width: 600px;
+   max-width: 1600px;
+    margin:auto;
+    text-align: center;
+    background: #F0FFFF; /* Цвет фона таблицы */
+        border: 5px double #000; /* Рамка вокруг таблицы */
+}
+.table .column {
+    display: table-column;
+}
+.table p {
+    margin: 0;
+    padding: 10px;
+    font-size: 20px;
+    display: table-caption;
+
+}
+.tr{
+padding: 5px; /
+    border: 1px solid #808080;
+ display: table-row;
+
+ }
+.td{
+  display: table-cell;
+padding: 5px;
+    border: 1px solid #808080;
+  }
+.table{
+display:table;
+
+}
+.td:hover{
+/*background:#008000;*/
+box-shadow: inset 0 0 0 3px #008000;
+}
+
+
+#block_shadow{
+    height:90px;
+    width:380px;
+    background: linear-gradient(to bottom, #368DDC,#1B69AF);
+    border-radius: 10px;
+     /*border: 1px solid #333; Параметры рамки margin-top : 20px*/
+    margin:auto;
+    box-shadow: 15px 15px 0px rgba(0,0,0,0.2);
+    transition-property: opacity;
+    transition-duration: .9s;
+}
+.block p {
+    margin: 0;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+#block_shadow:hover{
+opacity: 0;
+}
+
+#to_top {
+bottom:2%;
+right:1%;
+position:fixed;
+width:150px;
+height:60px; /*dimensions of image*/
+
+text-align: center;
+text-decoration: none;
+text-shadow: 0 1px rgba(255,255,255,.2), 0 -1px rgba(0,0,0,.8);
+outline: none;
+border: none;
+border-radius: 100px;
+background: rgb(28,107,114) radial-gradient(150% 100% at 50% 5px, rgba(255,255,255,.2), rgba(0,0,0,0));
+box-shadow: inset rgba(0,0,0,.6) 0 -2px 5px, inset rgba(252,255,255,.7) 0 2px 5px, rgba(0,0,0,.8) 0 2px 5px -1px;
+color: rgb(0,79,86);
+user-select: none;
+}
+.text{
+width:100%;
+
+font-size: 18px;
+margin: 0;
+
+}
+#to_top .image,#to_top .text {
+transition: opacity 0.5s ease-in-out;
+}
+#to_top .text {
+position:absolute; top:0; left:0; opacity:0;
+}
+#to_top:hover .image {
+opacity:0;
+}
+#to_top:hover .text {
+opacity:1;
+  color: rgb(0,59,66);
+}
+#to_top:active {
+  padding-bottom: 1px;
+  box-shadow:
+   inset rgba(0,0,0,1) 0 1px 3px,
+   inset rgba(0,0,0,.6) 0 -2px 5px,
+   inset rgba(252,255,255,.7) 0 2px 5px,
+   0 1px rgba(255,255,255,.08);
+  color: rgb(128,207,214);
+}
+
+
+
+

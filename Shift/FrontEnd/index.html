@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Test</title>
+    <link rel="stylesheet" href="./style/MAIN.css">
+</head>
+<body>
+
+<div class="main">
+    <div class="main_get">
+        <div class="main_get_list"></div>
+        <button class="main_get_send">Получить список пользователей</button>
+    </div>
+
+    <div class="main_post">
+        <form class="main_post_form">
+            Имя:
+            <br/>
+            <input type="text" name="name" class="main_post_form_name">
+            <br/>
+            Возраст:
+            <br/>
+            <input type="text" name="age" class="main_post_form_age">
+            <br/>
+            <button type="submit" class="main_post_form_send">Добавить пользователя</button>
+        </form>
+    </div>
+</div>
+
+</body>
+<script type="text/javascript">
+document.write(Date());
+</script>
+<script src="./lib/request.js"></script>
+<script src="./js/main.js"></script>
+</html>
