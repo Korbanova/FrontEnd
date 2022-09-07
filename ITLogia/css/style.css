@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, serif;
+}
+
+.main {
+    background: url("../images/background.png") center;
+    background-size: cover;
+}
+
+.header {
+    padding: 35px 0 33px 0;
+    border-bottom: 1px solid rgba(237, 224, 248, 0.3);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    margin-right: 281px;
+}
+
+.menu {
+    display: inline-block;
+}
+
+.menu-item {
+    display: inline-block;
+    margin-right: 50px;
+}
+
+.menu-item a {
+    text-decoration: none;
+    font-size: 16px;
+    color: rgb(237, 224, 248);
+    line-height: 1.2;
+}
+
+.website-title {
+    padding: 152px 0 88px;
+    font-size: 45px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.222;
+    max-width: 455px;
+}
+
+.website-list img {
+    vertical-align: bottom;
+}
+
+.website-list span {
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    line-height: 1.5;
+    margin-left: 14px;
+}
+
+.button {
+    width: 224px;
+    height: 60px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 3.438;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.button-while {
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(255, 255, 255);
+    margin: 101px 0 205px;
+}
+
+.course-title {
+    font-size: 35px;
+    color: rgb(139, 103, 214);
+    font-weight: bold;
+    line-height: 1.571;
+    margin: 140px 0 68px;
+}
+
+.course-list {
+    padding-bottom: 15px;
+}
+
+.course-list span {
+    font-size: 16px;
+    color: rgb(49, 27, 94);
+    line-height: 1.5;
+    margin-left: 16px;
+}
+
+.course-list img {
+    vertical-align: bottom;
+}
+
+.course-items {
+    margin-bottom: 140px;
+}
+
+.final {
+    background: url("../images/bg2.png") center;
+    background-size: cover;
+    padding-top: 140px;
+}
+
+.details-container {
+    width: 996px;
+    box-sizing: border-box;
+    margin: 0 auto 140px;
+    background-color: #ffffff;
+    padding: 60px 60px 44px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.details-title {
+    font-size: 35px;
+    color: rgb(139, 103, 214);
+    font-weight: bold;
+    line-height: 1.571;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.details-text {
+    max-width: 588px;
+    color: rgb(49, 27, 94);
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0 auto;
+}
+
+.details-text-name {
+    margin-bottom: 30px;
+}
+
+.details-text-name span {
+    font-weight: bold;
+}
+
+.button-violet{
+    color: rgb(177, 128, 228);
+    border: 2px solid rgb(177, 128, 228);
+    margin: 40px auto 0;
+}
+
+.footer{
+    padding: 46px 0;
+    border-top: 1px solid rgba(237, 224, 248, 0.3);
+}
+.footer .container{
+    text-align: center;
+}
