@@ -15,6 +15,7 @@ body {
 .header {
     padding: 35px 0 33px 0;
     border-bottom: 1px solid rgba(237, 224, 248, 0.3);
+    background-position: center;
 }
 
 .container {
@@ -41,16 +42,21 @@ body {
     color: rgb(237, 224, 248);
     line-height: 1.2;
 }
-
+.website{
+    padding: 152px 0 205px;
+}
 .website-title {
-    padding: 152px 0 88px;
+    max-width: 455px;
     font-size: 45px;
     color: rgb(255, 255, 255);
     font-weight: bold;
     line-height: 1.222;
-    max-width: 455px;
-}
+    margin-bottom: 90px;
 
+}
+.website-list{
+    margin-bottom: 101px;
+}
 .website-list img {
     vertical-align: bottom;
 }
@@ -77,19 +83,21 @@ body {
 .button-while {
     color: rgb(255, 255, 255);
     border: 2px solid rgb(255, 255, 255);
-    margin: 101px 0 205px;
 }
 
+.course{
+    padding: 140px 0;
+}
 .course-title {
     font-size: 35px;
     color: rgb(139, 103, 214);
     font-weight: bold;
     line-height: 1.571;
-    margin: 140px 0 68px;
+    margin-bottom: 75px ;
 }
 
 .course-list {
-    padding-bottom: 15px;
+    margin-top: 15px;
 }
 
 .course-list span {
@@ -103,20 +111,17 @@ body {
     vertical-align: bottom;
 }
 
-.course-items {
-    margin-bottom: 140px;
-}
-
 .final {
     background: url("../images/bg2.png") center;
     background-size: cover;
-    padding-top: 140px;
 }
-
+.details{
+    padding: 140px 0;
+}
 .details-container {
     width: 996px;
     box-sizing: border-box;
-    margin: 0 auto 140px;
+    margin: 0 auto;
     background-color: #ffffff;
     padding: 60px 60px 44px;
     border-radius: 20px;
@@ -137,21 +142,18 @@ body {
     color: rgb(49, 27, 94);
     font-size: 16px;
     line-height: 1.5;
-    margin: 0 auto;
-}
-
-.details-text-name {
-    margin-bottom: 30px;
+    margin: 0 auto 30px;
 }
 
 .details-text-name span {
     font-weight: bold;
 }
-
+.details-action{
+    margin: 40px auto 0;
+}
 .button-violet{
     color: rgb(177, 128, 228);
     border: 2px solid rgb(177, 128, 228);
-    margin: 40px auto 0;
 }
 
 .footer{
