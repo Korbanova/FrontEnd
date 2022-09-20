@@ -1,0 +1,308 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, serif;
+    background-color: #020303;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    font-size: 0;
+}
+
+.header {
+    padding: 30px 0;
+}
+
+.logo {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.header .logo {
+    margin-right: 282px;
+}
+
+.menu {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.menu ul li {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 30px;
+}
+
+.menu ul li:first-child {
+    margin-left: 0;
+}
+
+.menu ul li a {
+    font-size: 16px;
+    color: rgb(253, 239, 213);
+    line-height: 1.2;
+    text-decoration: none;
+}
+
+.menu ul li a:hover {
+    color: rgb(255, 175, 24);
+    border-bottom: 2px solid rgb(255, 175, 24);
+}
+
+.main {
+    padding: 133px 0 80px;
+}
+
+.main-info {
+    display: inline-block;
+    max-width: 564px;
+    vertical-align: top;
+    margin-right: 22px;
+}
+
+.main-info-title {
+    font-size: 45px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.222;
+    margin-bottom: 74px;
+}
+
+.main-info-title span {
+    color: #ffaf18;
+}
+
+.definition-items {
+    font-size: 0;
+    margin-bottom: 92px;
+}
+
+.definition-item {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 0;
+}
+
+.definition-item:first-child {
+    margin-right: 99px;
+}
+
+.definition-item-img {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 11px;
+}
+
+.definition-item-text {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    line-height: 1.5;
+}
+
+.main-image {
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 45px;
+}
+
+.button {
+    display: inline-block;
+    font-weight: bold;
+    color: rgb(2, 3, 3);
+    background-color: rgb(255, 175, 24);
+    font-size: 16px;
+    box-sizing: border-box;
+    border: 0;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.button-main {
+    width: 224px;
+    border-radius: 30px;
+    height: 60px;
+}
+
+.button:hover {
+    box-shadow: 0 5px 15px rgba(255, 167, 0, 0.5);
+}
+
+.sushi {
+    padding: 120px 0;
+}
+
+.sub-title {
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.571;
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.sushi-items {
+    font-size: 0;
+    text-align: center;
+    margin-right: -12px;
+    margin-left: -12px;
+}
+
+.sushi-item:hover {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 6px 4px rgba(255, 255, 255, 0.5);
+}
+
+.sushi-item {
+    display: inline-block;
+    vertical-align: middle;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    width: 282px;
+    padding: 10px 20px 15px;
+    margin: 12px;
+}
+
+.sushi-item:first-child,
+.sushi-item:last-child {
+    border-width: 5px;
+    border-color: rgb(237, 155, 0);
+    border-style: solid;
+    padding: 5px 15px 10px;
+}
+
+.sushi-item-title {
+    font-size: 18px;
+    color: rgb(24, 26, 26);
+    font-weight: bold;
+}
+
+.sushi-item-text {
+    font-size: 14px;
+    color: rgb(24, 26, 26);
+    line-height: 1.286;
+    max-width: 242px;
+    height: 53px;
+    margin: 15px auto;
+}
+
+.sushi-item-image {
+    margin-bottom: 21px;
+}
+
+.button-basket {
+    width: 100%;
+    border-radius: 25px;
+    height: 50px;
+}
+
+.cook {
+    padding: 120px 0 67px;
+}
+
+.cook-info {
+    max-width: 367px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 48px;
+}
+
+.cook-info-title {
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.286;
+    margin-bottom: 60px;
+}
+
+.cook-info-text {
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    line-height: 1.5;
+    margin-bottom: 100px;
+}
+
+.cook-info-subtitle {
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.4;
+    margin-bottom: 40px;
+}
+
+.cook-info-action {
+    font-size: 0;
+}
+
+.button-circle:visited {
+    background-color: rgb(190, 190, 190);
+}
+
+.button-circle:hover {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 6px 4px rgba(255, 255, 255, 0.5);
+}
+
+.button-circle:active {
+    background-color: rgb(255, 175, 24);
+}
+
+.button-circle {
+    display: inline-block;
+    vertical-align: middle;
+    background-color: #ffffff;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    text-align: center;
+    line-height: 20px;
+    text-decoration: none;
+    box-sizing: border-box;
+    margin-right: 40px;
+    cursor: pointer;
+}
+
+.button-circle:last-child {
+    margin-right: 0;
+}
+
+.button-onigiri {
+    padding-top: 13px;
+}
+
+.button-sushi {
+    padding-top: 11px;
+}
+
+.button-tuna {
+    padding-top: 14px;
+}
+
+.cook-image {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 82px;
+}
+
+.footer {
+    padding: 30px 0;
+}
+
+.footer .logo {
+    margin-right: 390px;
+}
+
+.footer-text {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 12px;
+    color: rgb(44, 44, 44);
+    line-height: 1.2;
+}
