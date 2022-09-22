@@ -1,0 +1,275 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url("../fonts/Montserrat-Medium.ttf");
+}
+
+@font-face {
+    font-family: SpectralSemBold;
+    src: url("../fonts/Spectralscsemibold.ttf");
+}
+
+body {
+    font-family: Montserrat, sans-serif;
+    background-color: #d5d9da;
+}
+
+.main-image {
+    background-image: url("../images/main-image.png");
+    background-position: center;
+    background-size: cover;
+    height: 811px;
+}
+
+.header {
+    position: sticky;
+    top: 0;
+    background-color: #dde0db;
+    padding: 16px 0;
+    z-index: 2;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header .container {
+    font-size: 0;
+}
+
+.header .logo {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.header .menu {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 354px;
+}
+
+.header .menu ul {
+    list-style: none;
+    font-size: 0;
+}
+
+.header .menu ul li {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 28px;
+}
+
+.header .menu ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    color: rgb(70, 80, 85);
+    line-height: 1.2;
+}
+
+.header-action {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 94px;
+}
+
+.button {
+    width: 205px;
+    padding: 14px;
+    font-size: 16px;
+    line-height: 11px;
+    border-radius: 20px;
+    border: 0;
+    cursor: pointer;
+}
+
+.button.button-transparent {
+    color: rgb(121, 136, 144);
+    border: 1px solid rgb(129, 130, 130);
+    background-color: transparent;
+}
+
+.gallery {
+    padding: 102px 0 55px 0;
+}
+
+.gallery h2 {
+    font-size: 40px;
+    font-family: SpectralSemBold, sans-serif;
+    color: rgb(47, 40, 34);
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+    margin-bottom: 54px;
+}
+
+.gallery-description {
+    font-size: 18px;
+    color: rgb(62, 52, 44);
+    line-height: 1.2;
+    text-align: center;
+    margin-bottom: 18px;
+}
+
+.gallery-items {
+    font-size: 0;
+    margin-left: -11px;
+    margin-right: -11px;
+}
+
+.gallery-item {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    margin: 12px 11px;
+    width: 384px;
+    height: 290px;
+    background-size: cover;
+    background-position: center;
+}
+
+.gallery-item.gallery-item-big {
+    width: 792px;
+}
+
+.gallery-text {
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+
+.gallery-eye {
+    display: none;
+    position: absolute;
+    opacity: 0.6;
+    background-color: black;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.gallery-eye img {
+    position: absolute;
+    top: calc(50% - 20px);
+    left: calc(50% - 35px);
+}
+
+.gallery-item:hover .gallery-eye {
+    display: block;
+}
+
+.tours {
+    padding: 54px 0 88px 0;
+}
+
+.tours h2 {
+    font-size: 40px;
+    font-family: SpectralSemBold, sans-serif;
+    color: rgb(47, 40, 34);
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.tours-items{
+    font-size: 0;
+    margin-right: -12px;
+    margin-left: -12px;
+}
+
+.tour-item{
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 12px;
+    width: 384px;
+}
+
+.tour-item-info{
+    background-color: #31393f;
+    padding: 22px 22px 40px 22px;
+    text-align: center;
+}
+
+.tour-item-text{
+    font-size: 22px;
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    margin-bottom: 37px;
+}
+
+.button.button-filled{
+    background-color: rgb(218, 130, 70);
+    font-size: 18px;
+    color: rgb(37, 41, 43);
+}
+
+.button.button-filled:hover{
+    box-shadow: 0 4px 14.25px 0.75px rgba(217, 149, 103, 0.8);
+}
+
+
+.fix-block{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 46px;
+    height: 46px;
+    background-color: #da8246;
+    text-align: center;
+    line-height: 46px;
+
+}
+
+.fix-block img{
+    vertical-align: middle;
+}
+
+.footer{
+    background-color: #31393f;
+    padding: 54px 0 49px;
+}
+
+.footer .container{
+    font-size: 0;
+}
+
+.footer .logo{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.footer .contact{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 900px;
+    text-align: center;
+}
+
+.contact-text{
+    font-size: 18px;
+    color: rgb(167, 185, 197);
+    line-height: 1;
+    margin-bottom: 10px;
+}
+
+.contact-phone{
+    font-size: 14px;
+    color: rgb(131, 145, 156);
+    line-height: 1;
+    margin-bottom: 3px;
+}
+
+.contact-phone:last-child{
+    margin-bottom: 0;
+}
